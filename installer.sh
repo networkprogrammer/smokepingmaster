@@ -1,4 +1,6 @@
 #!/bin/bash
+sudo cp tcpping /usr/local/bin/tcpping
+sudo chmod +x /usr/local/bin/tcpping
 sudo apt-get -yqq install smokeping 
 sudo sed -i 's~sendmail =~#sendmail =~g' /etc/smokeping/config.d/pathnames 
 cd /etc/apache2/conf-available
