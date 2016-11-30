@@ -1,4 +1,5 @@
 #!/bin/bash
+sudo timedatectl set-timezone America/Los_Angeles
 sudo cp tcpping /usr/local/bin/tcpping
 sudo chmod +x /usr/local/bin/tcpping
 sudo apt-get -yqq install smokeping 
