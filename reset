@@ -1,4 +1,4 @@
 #!/bin/bash
 sudo service smokeping restart
-sudo chown -R smokeping:www-data /var/lib/smokeping
-sudo chmod -R 777 /var/lib/smokeping/*
+sudo chown -R smokeping:www-data /var/lib/smokeping/
+sudo chmod -R 777 /var/lib/smokeping/
